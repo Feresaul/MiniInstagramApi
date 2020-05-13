@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniInstagramAPI", "MiniInstagramAPI\MiniInstagramAPI.csproj", "{8745D280-AFCF-45DE-BFC9-4AD81B9820F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CD7BDBBA-0951-4C65-AD0D-E72C1EBD37F2} = {CD7BDBBA-0951-4C65-AD0D-E72C1EBD37F2}
+		{94B41EBE-6C89-4DEB-B601-CFBECBFEED12} = {94B41EBE-6C89-4DEB-B601-CFBECBFEED12}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{CD7BDBBA-0951-4C65-AD0D-E72C1EBD37F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{94B41EBE-6C89-4DEB-B601-CFBECBFEED12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{70AB384E-BE58-4AF3-880F-E2BD16A129CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8745D280-AFCF-45DE-BFC9-4AD81B9820F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8745D280-AFCF-45DE-BFC9-4AD81B9820F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8745D280-AFCF-45DE-BFC9-4AD81B9820F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8745D280-AFCF-45DE-BFC9-4AD81B9820F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD7BDBBA-0951-4C65-AD0D-E72C1EBD37F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7BDBBA-0951-4C65-AD0D-E72C1EBD37F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7BDBBA-0951-4C65-AD0D-E72C1EBD37F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7BDBBA-0951-4C65-AD0D-E72C1EBD37F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B41EBE-6C89-4DEB-B601-CFBECBFEED12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B41EBE-6C89-4DEB-B601-CFBECBFEED12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B41EBE-6C89-4DEB-B601-CFBECBFEED12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B41EBE-6C89-4DEB-B601-CFBECBFEED12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AB384E-BE58-4AF3-880F-E2BD16A129CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AB384E-BE58-4AF3-880F-E2BD16A129CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AB384E-BE58-4AF3-880F-E2BD16A129CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AB384E-BE58-4AF3-880F-E2BD16A129CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95AF84F7-D34E-41A8-98B1-35120C9AF652}
+	EndGlobalSection
+EndGlobal
